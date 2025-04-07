@@ -25,7 +25,7 @@ def plot_top_categories(df):
 
 # 2. Views vs. Likes
 def plot_views_vs_likes(df):
-    sns.scatterplot(x='likes', y='views', data=df, alpha=0.5)
+    sns.scatterplot(x='likes', y='views', data=df, alpha=0.5, color = "orange")
     plt.xscale('log')
     plt.yscale('log')
     show_plot("Views vs Likes (Log Scale)")
