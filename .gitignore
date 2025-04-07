@@ -1,0 +1,5 @@
+# Ignore all CSV files in archive
+data/archive/*.csv
+
+# Except USvideos.csv
+!data/archive/USvideos.csv
